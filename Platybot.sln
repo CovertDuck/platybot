@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31815.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platybot", "Platybot\Platybot.csproj", "{F0BB14B6-01B7-438F-AC38-4FB9BF08D9DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{961D035F-B7A3-4D2B-BA4D-CE2A810A60C1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.env-sample = .env-sample
+		.gitignore = .gitignore
+		CreateProdDB.sql = CreateProdDB.sql
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0BB14B6-01B7-438F-AC38-4FB9BF08D9DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BB14B6-01B7-438F-AC38-4FB9BF08D9DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BB14B6-01B7-438F-AC38-4FB9BF08D9DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BB14B6-01B7-438F-AC38-4FB9BF08D9DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F82377BD-F169-4CD2-9038-4598DF286304}
+	EndGlobalSection
+EndGlobal

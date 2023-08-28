@@ -1,0 +1,5 @@
+﻿hug;{0} hugs themselves...?!;{0} pulls {1} into a tight hug! <<blob_hug_love>>
+pounce;{0} pounces and miss! They fall flat on the floor! :tired_face:;{0} pounces on {1} and give them a big ol' hug! :kissing_smiling_eyes:
+tackle;{0} tackles the air and faceplants on the ground. Ouch... :persevere:;{0} tackles {1}! Surprise!
+snuggle;{0} tries to snuggle up to... no one. That's a little sad.;{0} snuggles up close to {1} for a cozy cuddle.
+cheer;{0} cheers for themselves! Great job, me!;{0} cheers for {1}! You've got this, I believe in you!

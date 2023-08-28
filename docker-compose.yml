@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  platybot:
+    image: platybot:latest
+    container_name: platybot
+    restart: unless-stopped
+    environment:
+      - PLATYBOT_TOKEN=<TOKEN>                                  # Your Discord bot token
+      - PLATYBOT_DEFAULT_PREFIX=<DEFAULT_PREFIX>                # Default prefix used at the beginning of commands
+      - PLATYBOT_SUPERUSER_ID=<SUPERUSER_ID>                    # Bot's operator ID
+      - PLATYBOT_HOME_GUILD_ID=<PHOME_GUILD_ID>                 # Home Guild ID
+      - PLATYBOT_HOME_GUILD_CHANNEL_ID=<HOME_GUILD_CHANNEL_ID>  # Channel within Home Guild for notifications
+    volumes:
+      - /path/to/data:/app/data
+      - /path/to/logs:/app/logs
